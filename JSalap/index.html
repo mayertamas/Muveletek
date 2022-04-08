@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JavaScript Alapok</title>    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <input id="ossze1">
+        + <input id="ossze2"> =
+        <input id="osszeg">
+        <button onclick="osszeadas()">Összeadás</button>
+    </div>
+    <br>
+    <div>
+        <input id="kiv1">
+        - <input id="kiv2"> =
+        <input id="kulonbseg">
+        <button onclick="kivonas()">Kivonás</button>
+    </div>
+    <br>
+    <div>
+        <input id="szor1">
+        * <input id="szor2"> =
+        <input id="szorzat">
+        <button onclick="szorzas()">Szorzás</button>
+    </div>
+    <br>
+    <div>
+        <input id="oszt1">
+        / <input id="oszt2"> =
+        <input id="osztag">
+        <button onclick="osztas()">Osztás</button>
+    </div>
+    <br>
+    <div>
+        <textarea cols="50" rows="5" id="bemenet"></textarea>
+        Ennyi karakterből áll a szöveg: <input id="karakter">
+        <button onclick="karakter()">Számolás</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
